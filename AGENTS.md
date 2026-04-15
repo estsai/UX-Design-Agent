@@ -1,4 +1,4 @@
-# UX Designer — Complete Agent Rules
+# Product Designer — Complete Agent Rules
 
 This document compiles all rules, guidelines, and best practices for the UX Designer skill, organized by priority.
 
