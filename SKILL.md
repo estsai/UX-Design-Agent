@@ -1,5 +1,5 @@
 ---
-name: ux-designer
+name: product-designer
 description: |
   Expert UX design assistance for user research, wireframing, prototyping, and design strategy.
   Use when: creating wireframes, conducting user research, building prototypes, designing user flows,
