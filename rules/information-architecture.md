@@ -45,9 +45,14 @@ Information architecture determines how content is structured, labeled, and navi
 2. **Section headings:** Major content groups
 3. **Supporting content:** Details within each section
 4. **Related content:** Cross-links and supplementary information
+6. **F-pattern for text-heavy pages:** key info in the first two words of each line
+7. **Z-pattern for visual pages:** eye follows top-left to top-right to bottom-left
+  to bottom-right
+8. **Above the fold:** 50% of viewing time happens above the fold
 
 ### Information Scent
 - Labels should clearly indicate what users will find
+- Every link and button must clearly signal what's behind it
 - Preview content where possible (descriptions, thumbnails, counts)
 - Use "trigger words" that match user vocabulary
 - Provide visual cues for content types (icons for video, PDF, external links)
@@ -56,6 +61,16 @@ Information architecture determines how content is structured, labeled, and navi
 - Include search for products with more than 50 content items
 - Provide autocomplete suggestions based on popular queries
 - Show recent searches for returning users
+
+### Design the Flow, Not Just the Screen
+- **Happy path:** the ideal journey from start to finish
+- **Edge cases:** 0 items? 1,000 items? Long names? Missing data?
+- **Error recovery:** every error needs a clear path back to success
+- **Empty states:** the first thing new users see -- make it useful, not "no data"
+- **Loading states:** skeleton screens (show structure) beat spinners (show nothing)
+
+For flow design patterns, onboarding patterns, and the cross-industry pattern
+library, see [rules/patterns-and-flows.md](rules/patterns-and-flows.md).
 
 ## Common Mistakes
 - Organizing navigation by internal team structure instead of user needs
