@@ -70,7 +70,7 @@ Information architecture determines how content is structured, labeled, and navi
 - **Loading states:** skeleton screens (show structure) beat spinners (show nothing)
 
 For flow design patterns, onboarding patterns, and the cross-industry pattern
-library, see [rules/patterns-and-flows.md](rules/patterns-and-flows.md).
+library, see [patterns-and-flows.md](patterns-and-flows.md).
 
 ## Common Mistakes
 - Organizing navigation by internal team structure instead of user needs
