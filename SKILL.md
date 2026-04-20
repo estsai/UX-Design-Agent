@@ -45,6 +45,8 @@ This skill contains **detailed rules** in the `rules/` directory, organized by c
 | 🟡 HIGH | [Information Architecture](rules/information-architecture.md) | Navigation and content organization |
 | 🟡 HIGH | [Interaction Design](rules/interaction-design.md) | User flows and microcopy |
 | 🟢 MEDIUM | [Visual Design](rules/visual-design.md) | Hierarchy, color, typography, and design systems |
+| 🟢 MEDIUM | [Motion Design](rules/psychology-deep-dive.md) | Motion as communication |
+
 
 ## UX Design Process
 
@@ -199,6 +201,35 @@ Ensure the onboarding flow meets WCAG AA:
 - **Form fields** should use consistent 8px spacing with clear section grouping
 - Limit each screen to **one primary action** to reduce decision fatigue
 
+#### Step 5 — Motion as Communication *(from [psychology-deep-dive.md](rules/psychology-deep-dive.md)*
+Motion is UX, not decoration. Every animation must answer a question:
+
+- **Where did this come from?** (origin animation)
+- **What changed?** (state transition)
+- **Did my action work?** (feedback)
+- **What should I look at?** (attention direction)
+
+##### Timing Principles
+- Micro-interactions: 100-150ms (feels instant)
+- Tooltips, popovers: 150-200ms
+- Panels, expands: 200-300ms
+- Page transitions: 300-500ms
+- Closing is always faster than opening
+- NEVER use linear easing except for progress bars
+
+#### Step 6 — Suggest What to Test
+After building or reviewing, proactively suggest what to validate:
+
+- "I'd test this with a first-time user to see if [specific concern]"
+- "The riskiest assumption is [X] -- here's how to validate cheaply"
+- "Watch for users getting stuck at [point] -- if they do, try [alternative]"
+
+##### Quick Validation Methods
+- **5-second test:** show the screen for 5 seconds, ask what they remember
+- **Task completion:** give someone a goal, watch if they can achieve it
+- **Think-aloud:** watch someone use it while narrating their thoughts
+- **A/B test:** when you can't decide between two approaches, test both
+
 #### Summary
 
 | Area | Status | Key Action |
@@ -207,5 +238,7 @@ Ensure the onboarding flow meets WCAG AA:
 | User Flow | 🔴 Redesign | Remove email verification blocker, make invite optional |
 | Accessibility | 🟡 Review | Add visible labels, proper ARIA, and descriptive errors |
 | Visual Design | ✅ Apply | F-pattern layout, single CTA per screen, 8px grid |
+| Motion Design | ✅ Apply | Micro-interactions, tooltips, panels, page transitions |
+| Suggest What to Test | ⚠️ Validate | 5-second test, test completion, think-aloud, A/B Test |
 
 ---
